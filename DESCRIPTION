@@ -1,0 +1,22 @@
+Package: BrucknerStanusic
+Title: Allows user to receive the components of the following indices ATX, SMI and DAX
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Alexander",
+           family = "Bruckner",
+           role = c("aut", "cre"),
+           email = "ds20m002@technikum-wien.at",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+    person(given = "Ana",
+           family = "Stanusic",
+           role = c("aut", "cre"),
+           email = "ds20m010@technikum-wien.at",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Allows user to receive the components of the following indices ATX, SMI and DAX. These can then be used to download all further information via the symbol in the first column.
+Imports:
+  rvest
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
